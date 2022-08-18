@@ -4,4 +4,7 @@
 
   tasks:
     - name : terraform test
+      command: terraform init
+  tasks:
+    - name : terraform test
       command: terraform plan
