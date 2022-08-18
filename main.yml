@@ -2,9 +2,9 @@
 - name: terraform test
   hosts: localhost
 
+ # tasks:
+  #  - name : terraform test
+   #   command: terraform init
   tasks:
     - name : terraform test
-      command: terraform init
-  #tasks:
-   # - name : terraform test
-    #  command: terraform plan
+      command: terraform plan
