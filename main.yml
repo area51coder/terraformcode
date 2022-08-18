@@ -1,6 +1,6 @@
 ---
 - name: terraform test
-  hosts: all
+  hosts: localhost
 
   tasks:
     - name : terraform test
