@@ -4,4 +4,4 @@
 
   tasks:
     - name : terraform test
-      shell: terraform plan
+      shell: ./terraform plan
