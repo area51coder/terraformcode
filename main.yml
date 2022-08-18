@@ -1,0 +1,7 @@
+---
+- name: terraform test
+  hosts: all
+
+  tasks:
+    - name : terraform test
+      shell: terraform plan
